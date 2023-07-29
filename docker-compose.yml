@@ -1,0 +1,5 @@
+services:
+  game-client:
+    image: marclamy/nova-gameclient
+    ports:
+      - 127.0.0.1:3000:80
